@@ -1,0 +1,30 @@
+ter len 0
+show boot
+show ip int b
+show run
+show cdp ne
+show lldp ne
+sh mac address-table
+show int status
+show ip arp vrf MC_VN
+
+
+delete /force bootflash:nids-image-v5.2.2-arm64-unstable-377.tar.gz
+delete /force flash:nids-image-v5.2.2-arm64-unstable-377.tar.gz
+delete /force flash:ie3x00-universalk9.17.09.04a.SPA.bin
+delete /force flash:ie3x00-universalk9.17.09.04.SPA.bin
+delete /force sdflash:ie3x00-universalk9.17.09.04a.SPA.bin
+delete /force sdflash:ie3x00-universalk9.17.09.04.SPA.bin
+delete /force sdflash:ie3x00-universalk9.17.12.04.SPA.bin
+delete /force flash:ie3x00-universalk9.17.06.03.SPA.bin
+!!!!!One the switches boot up with 17.12.04 we need to expand the packages
+conf t
+no boot system
+no boot manual
+boot flash-primary
+no boot system flash:ie3x00-universalk9.17.12.04.SPA.bin
+no boot system flash:ie3x00-universalk9.17.12.04a.SPA.bin
+boot system flash:packages.conf
+do wr
+end
+install add file flash:ie3x00-universalk9.17.12.04.SPA.bin activate commit prompt-level none
