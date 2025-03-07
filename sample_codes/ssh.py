@@ -4,9 +4,9 @@ import sys
  
  
 # main
-username= 
-password= 
-hostname= TBMNC-SW-801-L2IDF2-EDG-2.toyota.com
+username= ''
+password= ''
+hostname= ''
 
 #print 'Params=', param_1, param_2, param_3
  
