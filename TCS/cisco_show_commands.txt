@@ -1,0 +1,3 @@
+sh cdp nei
+sh ip int br
+sh sw

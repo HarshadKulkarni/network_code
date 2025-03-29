@@ -1,0 +1,721 @@
+
+**********************************************************************
+*                            WARNING                                 *
+*  This system is for the use of authorized users only. Individuals  *
+*  using this system without authority, or in excess of their        *
+*  authority, are subject to having all of their activities on this  *
+*  system monitored and recorded by system personnel. In the course  *
+*  of monitoring individuals improperly using this system, or in the *
+*  course of system maintenance, the activities of authorized users  *
+*  may also be monitored. Anyone using this system expressly consent *
+*  to such monitoring and is advised that if such monitoring reveals *
+*  possible evidence of criminal activity, system personnel may      *
+*  provide the evidence of such monitoring to law enforcement        *
+*  officials. Please refer to the Company's Policies and Procedures  *
+*  for a complete statement on authorized uses of this system.       *
+**********************************************************************
+
+TBMNC-SW-801-H7-EDG1
+
+
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#terminal width 511
+TBMNC-SW-801-H7-EDG1#terminal length 0
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#sh cdp nei
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+TBMNC-BLD801-FL01-AP0255
+                 Ten 1/0/41        131              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0298
+                 Ten 2/0/47        140              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0254
+                 Ten 1/0/44        149              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0257
+                 Ten 1/0/39        130              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0264
+                 Ten 2/0/40        166              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0246
+                 Ten 1/0/42        158              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0256
+                 Ten 1/0/40        153              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0265
+                 Ten 3/0/47        144              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0262
+                 Ten 2/0/38        153              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0273
+                 Ten 2/0/42        157              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0250
+                 Ten 4/0/37        119              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0263
+                 Ten 2/0/41        158              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0272
+                 Ten 2/0/43        111              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0271
+                 Ten 2/0/39        151              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0260
+                 Ten 1/0/45        142              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0252
+                 Ten 4/0/38        152              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0261
+                 Ten 1/0/48        165              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0270
+                 Ten 2/0/37        165              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0280
+                 Ten 3/0/42        144              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0281
+                 Ten 3/0/38        132              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0290
+                 Ten 3/0/48        144              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0259
+                 Ten 3/0/46        168              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0258
+                 Ten 1/0/38        146              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0294
+                 Ten 2/0/46        169              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0249
+                 Ten 1/0/43        128              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0286
+                 Ten 4/0/39        151              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0279
+                 Ten 1/0/47        166              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0287
+                 Ten 2/0/45        126              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0278
+                 Ten 2/0/44        178              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-AP0269
+                 Ten 1/0/46        127              R T   CW9166I-B Gig 0
+axis-b8a44f50b379
+                 Ten 1/0/37        96                H    Linux     eth0
+TBMNC-SW-801-MDF2-INT-1B.toyota.com
+                 Hun 2/1/1         177             R S I  C9500-32C Hun 1/0/11
+TBMNC-SW-801-MDF1-INT-1A.toyota.com
+                 Hun 1/1/1         157             R S I  C9500-32C Hun 1/0/11
+TBMNC-BLD801-FL01-20E-AP0129
+                 Ten 3/0/45        174              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-H22-AP0137
+                 Ten 3/0/39        142              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-H23-AP0147
+                 Ten 3/0/40        175              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-E19-AP0124
+                 Ten 3/0/44        165              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-J23-AP0148
+                 Ten 2/0/48        152              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-E18-AP0119
+                 Ten 3/0/43        176              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-G22-AP0136
+                 Ten 3/0/41        173              R T   CW9166I-B Gig 0
+TBMNC-BLD801-FL01-J22-AP0138
+                 Ten 3/0/37        153              R T   CW9166I-B Gig 0
+
+Total cdp entries displayed : 41
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#sh ip int br
+Interface              IP-Address      OK? Method Status                Protocol
+Vlan1                  unassigned      YES NVRAM  up                    up      
+Vlan99                 192.168.254.253 YES NVRAM  up                    up      
+Vlan300                10.122.1.254    YES NVRAM  up                    up      
+Vlan325                169.254.100.1   YES NVRAM  up                    up      
+Vlan1021               10.113.79.254   YES NVRAM  up                    up      
+Vlan1022               10.113.63.254   YES NVRAM  up                    up      
+Vlan1024               10.197.63.254   YES NVRAM  up                    up      
+Vlan1029               10.112.31.254   YES NVRAM  up                    up      
+Vlan1043               10.115.63.254   YES NVRAM  up                    up      
+Vlan1044               10.121.31.254   YES NVRAM  up                    up      
+Vlan1045               10.116.63.254   YES NVRAM  up                    up      
+Vlan1046               10.118.5.254    YES NVRAM  up                    up      
+Vlan1047               10.117.63.254   YES NVRAM  up                    up      
+Vlan1048               10.118.133.254  YES NVRAM  up                    up      
+Vlan1049               10.118.3.254    YES NVRAM  up                    up      
+Vlan1050               10.118.7.254    YES NVRAM  up                    up      
+Vlan1051               10.118.129.254  YES NVRAM  up                    up      
+Vlan1052               10.118.131.254  YES NVRAM  up                    up      
+Vlan1053               10.122.31.254   YES NVRAM  up                    up      
+Vlan3001               10.114.0.254    YES NVRAM  up                    up      
+Vlan3002               10.114.1.254    YES NVRAM  up                    up      
+Vlan3003               10.114.2.254    YES NVRAM  up                    up      
+Vlan3004               10.114.3.254    YES NVRAM  up                    up      
+Vlan3005               10.114.4.254    YES NVRAM  up                    up      
+Vlan3006               10.114.5.254    YES NVRAM  up                    up      
+Vlan3007               10.114.6.254    YES NVRAM  up                    up      
+Vlan3008               10.114.7.254    YES NVRAM  up                    up      
+Vlan3009               10.114.8.254    YES NVRAM  up                    up      
+Vlan3010               10.114.9.254    YES NVRAM  up                    up      
+Vlan3011               10.114.10.254   YES NVRAM  up                    up      
+Vlan3012               10.114.11.254   YES NVRAM  up                    up      
+GigabitEthernet0/0     unassigned      YES NVRAM  down                  down    
+Te1/0/1                unassigned      YES unset  down                  down    
+Te1/0/2                unassigned      YES unset  down                  down    
+Te1/0/3                unassigned      YES unset  down                  down    
+Te1/0/4                unassigned      YES unset  up                    up      
+Te1/0/5                unassigned      YES unset  up                    up      
+Te1/0/6                unassigned      YES unset  up                    up      
+Te1/0/7                unassigned      YES unset  down                  down    
+Te1/0/8                unassigned      YES unset  up                    up      
+Te1/0/9                unassigned      YES unset  up                    up      
+Te1/0/10               unassigned      YES unset  down                  down    
+Te1/0/11               unassigned      YES unset  down                  down    
+Te1/0/12               unassigned      YES unset  down                  down    
+Te1/0/13               unassigned      YES unset  down                  down    
+Te1/0/14               unassigned      YES unset  down                  down    
+Te1/0/15               unassigned      YES unset  down                  down    
+Te1/0/16               unassigned      YES unset  down                  down    
+Te1/0/17               unassigned      YES unset  down                  down    
+Te1/0/18               unassigned      YES unset  up                    up      
+Te1/0/19               unassigned      YES unset  down                  down    
+Te1/0/20               unassigned      YES unset  down                  down    
+Te1/0/21               unassigned      YES unset  down                  down    
+Te1/0/22               unassigned      YES unset  down                  down    
+Te1/0/23               unassigned      YES unset  down                  down    
+Te1/0/24               unassigned      YES unset  down                  down    
+Te1/0/25               unassigned      YES unset  down                  down    
+Te1/0/26               unassigned      YES unset  down                  down    
+Te1/0/27               unassigned      YES unset  down                  down    
+Te1/0/28               unassigned      YES unset  down                  down    
+Te1/0/29               unassigned      YES unset  down                  down    
+Te1/0/30               unassigned      YES unset  down                  down    
+Te1/0/31               unassigned      YES unset  down                  down    
+Te1/0/32               unassigned      YES unset  down                  down    
+Te1/0/33               unassigned      YES unset  up                    up      
+Te1/0/34               unassigned      YES unset  up                    up      
+Te1/0/35               unassigned      YES unset  up                    up      
+Te1/0/36               unassigned      YES unset  up                    up      
+Te1/0/37               unassigned      YES unset  up                    up      
+Te1/0/38               unassigned      YES unset  up                    up      
+Te1/0/39               unassigned      YES unset  up                    up      
+Te1/0/40               unassigned      YES unset  up                    up      
+Te1/0/41               unassigned      YES unset  up                    up      
+Te1/0/42               unassigned      YES unset  up                    up      
+Te1/0/43               unassigned      YES unset  up                    up      
+Te1/0/44               unassigned      YES unset  up                    up      
+Te1/0/45               unassigned      YES unset  up                    up      
+Te1/0/46               unassigned      YES unset  up                    up      
+Te1/0/47               unassigned      YES unset  up                    up      
+Te1/0/48               unassigned      YES unset  up                    up      
+Te1/1/1                unassigned      YES unset  down                  down    
+Te1/1/2                unassigned      YES unset  down                  down    
+Te1/1/3                unassigned      YES unset  down                  down    
+Te1/1/4                unassigned      YES unset  down                  down    
+Te1/1/5                unassigned      YES unset  down                  down    
+Te1/1/6                unassigned      YES unset  down                  down    
+Te1/1/7                unassigned      YES unset  down                  down    
+Te1/1/8                unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/1    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/2    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/3    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/4    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/5    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/6    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/7    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/8    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/9    unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/10   unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/11   unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/12   unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/13   unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/14   unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/15   unassigned      YES unset  down                  down    
+TwentyFiveGigE1/1/16   unassigned      YES unset  down                  down    
+HundredGigE1/1/1       10.113.18.123   YES NVRAM  up                    up      
+HundredGigE1/1/2       unassigned      YES unset  down                  down    
+HundredGigE1/1/3       unassigned      YES unset  down                  down    
+HundredGigE1/1/4       unassigned      YES unset  down                  down    
+Ap1/0/1                unassigned      YES unset  up                    up      
+Ap1/0/2                unassigned      YES unset  up                    up      
+Te2/0/1                unassigned      YES unset  down                  down    
+Te2/0/2                unassigned      YES unset  down                  down    
+Te2/0/3                unassigned      YES unset  down                  down    
+Te2/0/4                unassigned      YES unset  down                  down    
+Te2/0/5                unassigned      YES unset  down                  down    
+Te2/0/6                unassigned      YES unset  down                  down    
+Te2/0/7                unassigned      YES unset  down                  down    
+Te2/0/8                unassigned      YES unset  down                  down    
+Te2/0/9                unassigned      YES unset  down                  down    
+Te2/0/10               unassigned      YES unset  down                  down    
+Te2/0/11               unassigned      YES unset  down                  down    
+Te2/0/12               unassigned      YES unset  down                  down    
+Te2/0/13               unassigned      YES unset  down                  down    
+Te2/0/14               unassigned      YES unset  down                  down    
+Te2/0/15               unassigned      YES unset  down                  down    
+Te2/0/16               unassigned      YES unset  down                  down    
+Te2/0/17               unassigned      YES unset  down                  down    
+Te2/0/18               unassigned      YES unset  down                  down    
+Te2/0/19               unassigned      YES unset  down                  down    
+Te2/0/20               unassigned      YES unset  down                  down    
+Te2/0/21               unassigned      YES unset  down                  down    
+Te2/0/22               unassigned      YES unset  down                  down    
+Te2/0/23               unassigned      YES unset  down                  down    
+Te2/0/24               unassigned      YES unset  down                  down    
+Te2/0/25               unassigned      YES unset  down                  down    
+Te2/0/26               unassigned      YES unset  down                  down    
+Te2/0/27               unassigned      YES unset  down                  down    
+Te2/0/28               unassigned      YES unset  down                  down    
+Te2/0/29               unassigned      YES unset  down                  down    
+Te2/0/30               unassigned      YES unset  down                  down    
+Te2/0/31               unassigned      YES unset  down                  down    
+Te2/0/32               unassigned      YES unset  down                  down    
+Te2/0/33               unassigned      YES unset  down                  down    
+Te2/0/34               unassigned      YES unset  down                  down    
+Te2/0/35               unassigned      YES unset  up                    up      
+Te2/0/36               unassigned      YES unset  down                  down    
+Te2/0/37               unassigned      YES unset  up                    up      
+Te2/0/38               unassigned      YES unset  up                    up      
+Te2/0/39               unassigned      YES unset  up                    up      
+Te2/0/40               unassigned      YES unset  up                    up      
+Te2/0/41               unassigned      YES unset  up                    up      
+Te2/0/42               unassigned      YES unset  up                    up      
+Te2/0/43               unassigned      YES unset  up                    up      
+Te2/0/44               unassigned      YES unset  up                    up      
+Te2/0/45               unassigned      YES unset  up                    up      
+Te2/0/46               unassigned      YES unset  up                    up      
+Te2/0/47               unassigned      YES unset  up                    up      
+Te2/0/48               unassigned      YES unset  up                    up      
+Te2/1/1                unassigned      YES unset  down                  down    
+Te2/1/2                unassigned      YES unset  down                  down    
+Te2/1/3                unassigned      YES unset  down                  down    
+Te2/1/4                unassigned      YES unset  down                  down    
+Te2/1/5                unassigned      YES unset  down                  down    
+Te2/1/6                unassigned      YES unset  down                  down    
+Te2/1/7                unassigned      YES unset  down                  down    
+Te2/1/8                unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/1    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/2    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/3    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/4    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/5    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/6    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/7    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/8    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/9    unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/10   unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/11   unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/12   unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/13   unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/14   unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/15   unassigned      YES unset  down                  down    
+TwentyFiveGigE2/1/16   unassigned      YES unset  down                  down    
+HundredGigE2/1/1       10.113.18.125   YES NVRAM  up                    up      
+HundredGigE2/1/2       unassigned      YES unset  down                  down    
+HundredGigE2/1/3       unassigned      YES unset  down                  down    
+HundredGigE2/1/4       unassigned      YES unset  down                  down    
+Ap2/0/1                unassigned      YES unset  up                    up      
+Ap2/0/2                unassigned      YES unset  up                    up      
+Te3/0/1                unassigned      YES unset  down                  down    
+Te3/0/2                unassigned      YES unset  down                  down    
+Te3/0/3                unassigned      YES unset  down                  down    
+Te3/0/4                unassigned      YES unset  down                  down    
+Te3/0/5                unassigned      YES unset  down                  down    
+Te3/0/6                unassigned      YES unset  down                  down    
+Te3/0/7                unassigned      YES unset  down                  down    
+Te3/0/8                unassigned      YES unset  down                  down    
+Te3/0/9                unassigned      YES unset  down                  down    
+Te3/0/10               unassigned      YES unset  down                  down    
+Te3/0/11               unassigned      YES unset  down                  down    
+Te3/0/12               unassigned      YES unset  down                  down    
+Te3/0/13               unassigned      YES unset  down                  down    
+Te3/0/14               unassigned      YES unset  down                  down    
+Te3/0/15               unassigned      YES unset  down                  down    
+Te3/0/16               unassigned      YES unset  up                    up      
+Te3/0/17               unassigned      YES unset  up                    up      
+Te3/0/18               unassigned      YES unset  down                  down    
+Te3/0/19               unassigned      YES unset  down                  down    
+Te3/0/20               unassigned      YES unset  down                  down    
+Te3/0/21               unassigned      YES unset  up                    up      
+Te3/0/22               unassigned      YES unset  down                  down    
+Te3/0/23               unassigned      YES unset  up                    up      
+Te3/0/24               unassigned      YES unset  down                  down    
+Te3/0/25               unassigned      YES unset  down                  down    
+Te3/0/26               unassigned      YES unset  up                    up      
+Te3/0/27               unassigned      YES unset  down                  down    
+Te3/0/28               unassigned      YES unset  up                    up      
+Te3/0/29               unassigned      YES unset  down                  down    
+Te3/0/30               unassigned      YES unset  up                    up      
+Te3/0/31               unassigned      YES unset  up                    up      
+Te3/0/32               unassigned      YES unset  up                    up      
+Te3/0/33               unassigned      YES unset  up                    up      
+Te3/0/34               unassigned      YES unset  up                    up      
+Te3/0/35               unassigned      YES unset  up                    up      
+Te3/0/36               unassigned      YES unset  up                    up      
+Te3/0/37               unassigned      YES unset  up                    up      
+Te3/0/38               unassigned      YES unset  up                    up      
+Te3/0/39               unassigned      YES unset  up                    up      
+Te3/0/40               unassigned      YES unset  up                    up      
+Te3/0/41               unassigned      YES unset  up                    up      
+Te3/0/42               unassigned      YES unset  up                    up      
+Te3/0/43               unassigned      YES unset  up                    up      
+Te3/0/44               unassigned      YES unset  up                    up      
+Te3/0/45               unassigned      YES unset  up                    up      
+Te3/0/46               unassigned      YES unset  up                    up      
+Te3/0/47               unassigned      YES unset  up                    up      
+Te3/0/48               unassigned      YES unset  up                    up      
+Te3/1/1                unassigned      YES unset  down                  down    
+Te3/1/2                unassigned      YES unset  down                  down    
+Te3/1/3                unassigned      YES unset  down                  down    
+Te3/1/4                unassigned      YES unset  down                  down    
+Te3/1/5                unassigned      YES unset  down                  down    
+Te3/1/6                unassigned      YES unset  down                  down    
+Te3/1/7                unassigned      YES unset  down                  down    
+Te3/1/8                unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/1    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/2    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/3    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/4    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/5    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/6    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/7    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/8    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/9    unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/10   unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/11   unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/12   unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/13   unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/14   unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/15   unassigned      YES unset  down                  down    
+TwentyFiveGigE3/1/16   unassigned      YES unset  down                  down    
+HundredGigE3/1/1       unassigned      YES unset  down                  down    
+HundredGigE3/1/2       unassigned      YES unset  down                  down    
+HundredGigE3/1/3       unassigned      YES unset  down                  down    
+HundredGigE3/1/4       unassigned      YES unset  down                  down    
+Ap3/0/1                unassigned      YES unset  up                    up      
+Ap3/0/2                unassigned      YES unset  up                    up      
+Te4/0/1                unassigned      YES unset  up                    up      
+Te4/0/2                unassigned      YES unset  down                  down    
+Te4/0/3                unassigned      YES unset  up                    up      
+Te4/0/4                unassigned      YES unset  down                  down    
+Te4/0/5                unassigned      YES unset  down                  down    
+Te4/0/6                unassigned      YES unset  down                  down    
+Te4/0/7                unassigned      YES unset  down                  down    
+Te4/0/8                unassigned      YES unset  down                  down    
+Te4/0/9                unassigned      YES unset  down                  down    
+Te4/0/10               unassigned      YES unset  down                  down    
+Te4/0/11               unassigned      YES unset  down                  down    
+Te4/0/12               unassigned      YES unset  down                  down    
+Te4/0/13               unassigned      YES unset  down                  down    
+Te4/0/14               unassigned      YES unset  down                  down    
+Te4/0/15               unassigned      YES unset  down                  down    
+Te4/0/16               unassigned      YES unset  down                  down    
+Te4/0/17               unassigned      YES unset  down                  down    
+Te4/0/18               unassigned      YES unset  down                  down    
+Te4/0/19               unassigned      YES unset  down                  down    
+Te4/0/20               unassigned      YES unset  down                  down    
+Te4/0/21               unassigned      YES unset  down                  down    
+Te4/0/22               unassigned      YES unset  down                  down    
+Te4/0/23               unassigned      YES unset  down                  down    
+Te4/0/24               unassigned      YES unset  down                  down    
+Te4/0/25               unassigned      YES unset  down                  down    
+Te4/0/26               unassigned      YES unset  down                  down    
+Te4/0/27               unassigned      YES unset  down                  down    
+Te4/0/28               unassigned      YES unset  down                  down    
+Te4/0/29               unassigned      YES unset  down                  down    
+Te4/0/30               unassigned      YES unset  down                  down    
+Te4/0/31               unassigned      YES unset  down                  down    
+Te4/0/32               unassigned      YES unset  down                  down    
+Te4/0/33               unassigned      YES unset  down                  down    
+Te4/0/34               unassigned      YES unset  down                  down    
+Te4/0/35               unassigned      YES unset  down                  down    
+Te4/0/36               unassigned      YES unset  down                  down    
+Te4/0/37               unassigned      YES unset  up                    up      
+Te4/0/38               unassigned      YES unset  up                    up      
+Te4/0/39               unassigned      YES unset  up                    up      
+Te4/0/40               unassigned      YES unset  down                  down    
+Te4/0/41               unassigned      YES unset  down                  down    
+Te4/0/42               unassigned      YES unset  down                  down    
+Te4/0/43               unassigned      YES unset  down                  down    
+Te4/0/44               unassigned      YES unset  down                  down    
+Te4/0/45               unassigned      YES unset  down                  down    
+Te4/0/46               unassigned      YES unset  down                  down    
+Te4/0/47               unassigned      YES unset  down                  down    
+Te4/0/48               unassigned      YES unset  down                  down    
+Te4/1/1                unassigned      YES unset  down                  down    
+Te4/1/2                unassigned      YES unset  down                  down    
+Te4/1/3                unassigned      YES unset  down                  down    
+Te4/1/4                unassigned      YES unset  down                  down    
+Te4/1/5                unassigned      YES unset  down                  down    
+Te4/1/6                unassigned      YES unset  down                  down    
+Te4/1/7                unassigned      YES unset  down                  down    
+Te4/1/8                unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/1    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/2    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/3    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/4    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/5    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/6    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/7    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/8    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/9    unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/10   unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/11   unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/12   unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/13   unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/14   unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/15   unassigned      YES unset  down                  down    
+TwentyFiveGigE4/1/16   unassigned      YES unset  down                  down    
+HundredGigE4/1/1       unassigned      YES unset  down                  down    
+HundredGigE4/1/2       unassigned      YES unset  down                  down    
+HundredGigE4/1/3       unassigned      YES unset  down                  down    
+HundredGigE4/1/4       unassigned      YES unset  down                  down    
+Ap4/0/1                unassigned      YES unset  up                    up      
+Ap4/0/2                unassigned      YES unset  up                    up      
+Te5/0/1                unassigned      YES unset  down                  down    
+Te5/0/2                unassigned      YES unset  down                  down    
+Te5/0/3                unassigned      YES unset  down                  down    
+Te5/0/4                unassigned      YES unset  down                  down    
+Te5/0/5                unassigned      YES unset  down                  down    
+Te5/0/6                unassigned      YES unset  down                  down    
+Te5/0/7                unassigned      YES unset  down                  down    
+Te5/0/8                unassigned      YES unset  down                  down    
+Te5/0/9                unassigned      YES unset  down                  down    
+Te5/0/10               unassigned      YES unset  down                  down    
+Te5/0/11               unassigned      YES unset  down                  down    
+Te5/0/12               unassigned      YES unset  down                  down    
+Te5/0/13               unassigned      YES unset  down                  down    
+Te5/0/14               unassigned      YES unset  down                  down    
+Te5/0/15               unassigned      YES unset  down                  down    
+Te5/0/16               unassigned      YES unset  down                  down    
+Te5/0/17               unassigned      YES unset  down                  down    
+Te5/0/18               unassigned      YES unset  down                  down    
+Te5/0/19               unassigned      YES unset  down                  down    
+Te5/0/20               unassigned      YES unset  down                  down    
+Te5/0/21               unassigned      YES unset  down                  down    
+Te5/0/22               unassigned      YES unset  down                  down    
+Te5/0/23               unassigned      YES unset  down                  down    
+Te5/0/24               unassigned      YES unset  down                  down    
+Te5/0/25               unassigned      YES unset  down                  down    
+Te5/0/26               unassigned      YES unset  down                  down    
+Te5/0/27               unassigned      YES unset  down                  down    
+Te5/0/28               unassigned      YES unset  down                  down    
+Te5/0/29               unassigned      YES unset  down                  down    
+Te5/0/30               unassigned      YES unset  down                  down    
+Te5/0/31               unassigned      YES unset  down                  down    
+Te5/0/32               unassigned      YES unset  down                  down    
+Te5/0/33               unassigned      YES unset  down                  down    
+Te5/0/34               unassigned      YES unset  down                  down    
+Te5/0/35               unassigned      YES unset  down                  down    
+Te5/0/36               unassigned      YES unset  down                  down    
+Te5/0/37               unassigned      YES unset  down                  down    
+Te5/0/38               unassigned      YES unset  down                  down    
+Te5/0/39               unassigned      YES unset  down                  down    
+Te5/0/40               unassigned      YES unset  down                  down    
+Te5/0/41               unassigned      YES unset  down                  down    
+Te5/0/42               unassigned      YES unset  down                  down    
+Te5/0/43               unassigned      YES unset  down                  down    
+Te5/0/44               unassigned      YES unset  down                  down    
+Te5/0/45               unassigned      YES unset  down                  down    
+Te5/0/46               unassigned      YES unset  down                  down    
+Te5/0/47               unassigned      YES unset  down                  down    
+Te5/0/48               unassigned      YES unset  down                  down    
+Te5/1/1                unassigned      YES unset  down                  down    
+Te5/1/2                unassigned      YES unset  down                  down    
+Te5/1/3                unassigned      YES unset  down                  down    
+Te5/1/4                unassigned      YES unset  down                  down    
+Te5/1/5                unassigned      YES unset  down                  down    
+Te5/1/6                unassigned      YES unset  down                  down    
+Te5/1/7                unassigned      YES unset  down                  down    
+Te5/1/8                unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/1    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/2    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/3    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/4    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/5    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/6    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/7    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/8    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/9    unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/10   unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/11   unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/12   unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/13   unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/14   unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/15   unassigned      YES unset  down                  down    
+TwentyFiveGigE5/1/16   unassigned      YES unset  down                  down    
+HundredGigE5/1/1       unassigned      YES unset  down                  down    
+HundredGigE5/1/2       unassigned      YES unset  down                  down    
+HundredGigE5/1/3       unassigned      YES unset  down                  down    
+HundredGigE5/1/4       unassigned      YES unset  down                  down    
+Ap5/0/1                unassigned      YES unset  up                    up      
+Ap5/0/2                unassigned      YES unset  up                    up      
+Te6/0/1                unassigned      YES unset  down                  down    
+Te6/0/2                unassigned      YES unset  down                  down    
+Te6/0/3                unassigned      YES unset  down                  down    
+Te6/0/4                unassigned      YES unset  down                  down    
+Te6/0/5                unassigned      YES unset  down                  down    
+Te6/0/6                unassigned      YES unset  down                  down    
+Te6/0/7                unassigned      YES unset  down                  down    
+Te6/0/8                unassigned      YES unset  down                  down    
+Te6/0/9                unassigned      YES unset  down                  down    
+Te6/0/10               unassigned      YES unset  down                  down    
+Te6/0/11               unassigned      YES unset  down                  down    
+Te6/0/12               unassigned      YES unset  down                  down    
+Te6/0/13               unassigned      YES unset  down                  down    
+Te6/0/14               unassigned      YES unset  down                  down    
+Te6/0/15               unassigned      YES unset  down                  down    
+Te6/0/16               unassigned      YES unset  down                  down    
+Te6/0/17               unassigned      YES unset  down                  down    
+Te6/0/18               unassigned      YES unset  down                  down    
+Te6/0/19               unassigned      YES unset  down                  down    
+Te6/0/20               unassigned      YES unset  down                  down    
+Te6/0/21               unassigned      YES unset  down                  down    
+Te6/0/22               unassigned      YES unset  down                  down    
+Te6/0/23               unassigned      YES unset  down                  down    
+Te6/0/24               unassigned      YES unset  down                  down    
+Te6/0/25               unassigned      YES unset  down                  down    
+Te6/0/26               unassigned      YES unset  down                  down    
+Te6/0/27               unassigned      YES unset  down                  down    
+Te6/0/28               unassigned      YES unset  down                  down    
+Te6/0/29               unassigned      YES unset  down                  down    
+Te6/0/30               unassigned      YES unset  down                  down    
+Te6/0/31               unassigned      YES unset  down                  down    
+Te6/0/32               unassigned      YES unset  down                  down    
+Te6/0/33               unassigned      YES unset  down                  down    
+Te6/0/34               unassigned      YES unset  down                  down    
+Te6/0/35               unassigned      YES unset  down                  down    
+Te6/0/36               unassigned      YES unset  down                  down    
+Te6/0/37               unassigned      YES unset  down                  down    
+Te6/0/38               unassigned      YES unset  down                  down    
+Te6/0/39               unassigned      YES unset  down                  down    
+Te6/0/40               unassigned      YES unset  down                  down    
+Te6/0/41               unassigned      YES unset  down                  down    
+Te6/0/42               unassigned      YES unset  down                  down    
+Te6/0/43               unassigned      YES unset  down                  down    
+Te6/0/44               unassigned      YES unset  down                  down    
+Te6/0/45               unassigned      YES unset  down                  down    
+Te6/0/46               unassigned      YES unset  down                  down    
+Te6/0/47               unassigned      YES unset  down                  down    
+Te6/0/48               unassigned      YES unset  down                  down    
+Te6/1/1                unassigned      YES unset  down                  down    
+Te6/1/2                unassigned      YES unset  down                  down    
+Te6/1/3                unassigned      YES unset  down                  down    
+Te6/1/4                unassigned      YES unset  down                  down    
+Te6/1/5                unassigned      YES unset  down                  down    
+Te6/1/6                unassigned      YES unset  down                  down    
+Te6/1/7                unassigned      YES unset  down                  down    
+Te6/1/8                unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/1    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/2    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/3    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/4    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/5    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/6    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/7    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/8    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/9    unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/10   unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/11   unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/12   unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/13   unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/14   unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/15   unassigned      YES unset  down                  down    
+TwentyFiveGigE6/1/16   unassigned      YES unset  down                  down    
+HundredGigE6/1/1       unassigned      YES unset  down                  down    
+HundredGigE6/1/2       unassigned      YES unset  down                  down    
+HundredGigE6/1/3       unassigned      YES unset  down                  down    
+HundredGigE6/1/4       unassigned      YES unset  down                  down    
+Ap6/0/1                unassigned      YES unset  up                    up      
+Ap6/0/2                unassigned      YES unset  up                    up      
+AccessTunnel0          unassigned      YES unset  up                    up      
+AccessTunnel1          unassigned      YES unset  up                    up      
+AccessTunnel2          unassigned      YES unset  up                    up      
+AccessTunnel3          unassigned      YES unset  up                    up      
+AccessTunnel4          unassigned      YES unset  up                    up      
+AccessTunnel5          unassigned      YES unset  up                    up      
+AccessTunnel6          unassigned      YES unset  up                    up      
+AccessTunnel7          unassigned      YES unset  up                    up      
+AccessTunnel8          unassigned      YES unset  up                    up      
+AccessTunnel9          unassigned      YES unset  up                    up      
+AccessTunnel10         unassigned      YES unset  up                    up      
+AccessTunnel11         unassigned      YES unset  up                    up      
+AccessTunnel12         unassigned      YES unset  up                    up      
+AccessTunnel13         unassigned      YES unset  up                    up      
+AccessTunnel14         unassigned      YES unset  up                    up      
+AccessTunnel15         unassigned      YES unset  up                    up      
+AccessTunnel16         unassigned      YES unset  up                    up      
+AccessTunnel17         unassigned      YES unset  up                    up      
+AccessTunnel18         unassigned      YES unset  up                    up      
+AccessTunnel19         unassigned      YES unset  up                    up      
+AccessTunnel20         unassigned      YES unset  up                    up      
+AccessTunnel21         unassigned      YES unset  up                    up      
+AccessTunnel22         unassigned      YES unset  up                    up      
+AccessTunnel23         unassigned      YES unset  up                    up      
+AccessTunnel24         unassigned      YES unset  up                    up      
+AccessTunnel25         unassigned      YES unset  up                    up      
+AccessTunnel26         unassigned      YES unset  up                    up      
+AccessTunnel27         unassigned      YES unset  up                    up      
+AccessTunnel28         unassigned      YES unset  up                    up      
+AccessTunnel29         unassigned      YES unset  up                    up      
+AccessTunnel30         unassigned      YES unset  up                    up      
+AccessTunnel31         unassigned      YES unset  up                    up      
+AccessTunnel32         unassigned      YES unset  up                    up      
+AccessTunnel33         unassigned      YES unset  up                    up      
+AccessTunnel34         unassigned      YES unset  up                    up      
+AccessTunnel35         unassigned      YES unset  up                    up      
+AccessTunnel36         unassigned      YES unset  up                    up      
+AccessTunnel37         unassigned      YES unset  up                    up      
+L2LISP0                10.113.18.117   YES unset  up                    up      
+L2LISP0.8213           10.113.18.117   YES unset  up                    up      
+L2LISP0.8214           10.113.18.117   YES unset  up                    up      
+L2LISP0.8222           10.113.18.117   YES unset  up                    up      
+L2LISP0.8224           10.113.18.117   YES unset  up                    up      
+L2LISP0.8228           10.113.18.117   YES unset  up                    up      
+L2LISP0.8229           10.113.18.117   YES unset  up                    up      
+L2LISP0.8237           10.113.18.117   YES unset  up                    up      
+L2LISP0.8238           10.113.18.117   YES unset  up                    up      
+L2LISP0.8239           10.113.18.117   YES unset  up                    up      
+L2LISP0.8240           10.113.18.117   YES unset  up                    up      
+L2LISP0.8241           10.113.18.117   YES unset  up                    up      
+L2LISP0.8242           10.113.18.117   YES unset  up                    up      
+L2LISP0.8247           10.113.18.117   YES unset  up                    up      
+L2LISP0.8251           10.113.18.117   YES unset  up                    up      
+L2LISP0.8254           10.113.18.117   YES unset  up                    up      
+L2LISP0.8255           10.113.18.117   YES unset  up                    up      
+L2LISP0.8256           10.113.18.117   YES unset  up                    up      
+L2LISP0.8257           10.113.18.117   YES unset  up                    up      
+L2LISP0.8258           10.113.18.117   YES unset  up                    up      
+L2LISP0.8259           10.113.18.117   YES unset  up                    up      
+L2LISP0.8260           10.113.18.117   YES unset  up                    up      
+L2LISP0.8261           10.113.18.117   YES unset  up                    up      
+L2LISP0.8262           10.113.18.117   YES unset  up                    up      
+L2LISP0.8263           10.113.18.117   YES unset  up                    up      
+L2LISP0.8287           10.113.18.117   YES unset  up                    up      
+L2LISP0.8288           10.113.18.117   YES unset  up                    up      
+L2LISP0.8289           10.113.18.117   YES unset  up                    up      
+L2LISP0.8290           10.113.18.117   YES unset  up                    up      
+L2LISP0.8294           10.113.18.117   YES unset  up                    up      
+LISP0                  unassigned      YES unset  up                    up      
+LISP0.4097             10.113.18.117   YES unset  up                    up      
+LISP0.4099             192.168.254.253 YES unset  up                    up      
+LISP0.4100             10.116.254.22   YES unset  up                    up      
+LISP0.4101             10.118.133.254  YES unset  up                    up      
+LISP0.4102             10.122.31.254   YES unset  up                    up      
+LISP0.4103             10.115.63.254   YES unset  up                    up      
+LISP0.4104             10.121.31.254   YES unset  up                    up      
+Loopback0              10.113.18.117   YES NVRAM  up                    up      
+Loopback4100           10.116.254.22   YES NVRAM  up                    up      
+Tunnel0                10.113.18.117   YES unset  up                    up      
+Tunnel1                10.116.254.22   YES unset  up                    up      
+Tunnel1000000000       unassigned      YES unset  up                    down    
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#
+TBMNC-SW-801-H7-EDG1#sh sw
+Switch/Stack Mac Address : 9088.5533.f480 - Local Mac Address
+Mac persistency wait time: Indefinite
+                                             H/W   Current
+Switch#   Role    Mac Address     Priority Version  State 
+-------------------------------------------------------------------------------------
+*1       Active   9088.5533.f480     15     V02     Ready                               
+ 2       Standby  3488.18c7.6d00     14     V02     Ready                               
+ 3       Member   9088.5534.1600     13     V02     Ready                               
+ 4       Member   9088.5534.0e00     12     V02     Ready                               
+ 5       Member   3488.18c7.5200     11     V02     Ready                               
+ 6       Member   6c03.b5fe.9f80     10     V02     Ready                               
+
+
+
+TBMNC-SW-801-H7-EDG1#
